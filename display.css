@@ -1,0 +1,97 @@
+
+div.test1{
+   text-shadow: 1px 1px 1px red,
+             2px 2px 1px red;
+    font-size: 10px;
+}
+
+div.test2 {
+    background: url(http://i.giphy.com/fsULJFFGv8X3G.gif);
+    background-size: cover;
+    background-position: center;
+
+    -webkit-background-clip: text;
+    color: transparent; // set to transparent, otherwise won't see the background
+
+    width: 300px;
+    height: 100px;
+    box-sizing: border-box;
+    font-size: 58px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100px;
+    flex-shrink: 0;
+}
+
+div.test3 {
+font-family: Helvetica, Arial, sans-serif;
+
+}
+
+div.test4 {
+    letter-spacing: 4px;
+  word-spacing: 4px;
+}
+
+div.test5 {
+font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.5rem;
+  color: red;
+
+}
+div.test6 {
+text-rendering: optimizeLegibility;
+    overflow-wrap: break-word;
+
+}
+div.test7 {
+font-family: Helvetica, Arial, sans-serif;
+    line-height: 3;
+color: green;
+
+}
+div.test8 {
+font-family: Helvetica, Arial, sans-serif;
+transform: rotate(180deg);
+color: blue;
+
+}
+img{
+    border-radius: 50%;
+    opacity: 0.5;
+}
+p.test1{
+   font-size: 15rem;
+	    text-align: center;
+      height:90vh;
+      line-height: 90vh;
+	    color: #fcedd8;
+	    background: #d52e3f;
+	   	font-family: 'Niconne', cursive;
+	    font-weight: 700;
+      text-shadow: 5px 5px 0px #eb452b, 
+                  10px 10px 0px #efa032, 
+                  15px 15px 0px #46b59b, 
+                  20px 20px 0px #017e7f, 
+                  25px 25px 0px #052939, 
+                  30px 30px 0px #c11a2b, 
+                  35px 35px 0px #c11a2b, 
+                  40px 40px 0px #c11a2b, 
+                  45px 45px 0px #c11a2b;
+
+    text-align: center;
+    font-family: "Helvetica";
+    font-size:0.8rem;
+
+    color: #d52e3f;
+    text-decoration: none;
+    font-family: 'Niconne', cursive;
+    font-size: 1.2rem;
+}
+textarea{ 
+ background: url(https://www.simplyrecipes.com/wp-content/uploads/2019/09/easy-pepperoni-pizza-lead-4.jpg) center center no-repeat;
+  border: 1px solid #888; 
+}
+li {
+    display: inline-block;
+}
